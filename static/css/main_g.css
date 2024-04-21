@@ -1,0 +1,51 @@
+.container-show {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(img/banner/pngtree-aesthetic-background-texture-with-ample-white-space-for-designers-image_13641487.png);
+background-size: cover;
+}
+
+@media (min-width:576px) {
+    .container-show {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .container-show {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .container-show {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .container-show {
+        max-width: 1140px
+    }
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+.justify-content-left{
+    display: flex;
+    justify-content: center;
+}
+.justify-content-right{
+    justify-content:center;
+    display: flex;
+
+
+}

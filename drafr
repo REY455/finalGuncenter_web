@@ -1,0 +1,36 @@
+.image-container {
+ 
+}
+.row-1 {
+  display: flex; /* Flex container for each row */
+  justify-content: space-between; /* Distribute images evenly within row */
+  margin-bottom: 20px; /* Add spacing between rows */
+  flex-wrap:wrap;
+}
+.row-2 {
+  display: flex; /* Flex container for each row */
+flex-wrap: wrap;
+  justify-content: space-between; /* Distribute images evenly within row */
+  margin-bottom: 20px; /* Add spacing between rows */
+  /* flex-wrap:wrap; */
+}
+.image-wrapper {
+    flex: 0 0 calc(49% - 10px); /* Adjust width to fit two images in a row with some spacing */
+  padding: 10px;
+  box-sizing: border-box;
+}
+.image-wrapper img {
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+
+
+
+<div class="row-1">
+				<div class="images">
+	          <div class="r1"><img src="/static/img/guns/air_gun.jpg" alt="" style="width: 396px; height: 223px;"></div>
+			  <div class="r1"><img src="/static/img/guns/bags_m ed.jpg" alt=""style="width: 396px; height: 223px;"></div>
+		    </div>

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="/static/img/guncenter.png">
+	<!-- Author Meta -->
+	<meta name="author" content="CodePixar">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Gun Center</title>
+	<!--
+		CSS
+		============================================= -->
+	<link rel="stylesheet" href="/static/css/linearicons.css">
+	<link rel="stylesheet" href="/static/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/static/css/themify-icons.css">
+	<link rel="stylesheet" href="/static/css/bootstrap.css">
+	<link rel="stylesheet" href="/static/css/owl.carousel.css">
+	<link rel="stylesheet" href="/static/css/nice-select.css">
+	<link rel="stylesheet" href="/static/css/nouislider.min.css">
+	<link rel="stylesheet" href="/static/css/ion.rangeSlider.css" />
+	<link rel="stylesheet" href="/static/css/ion.rangeSlider.skinFlat.css" />
+	<link rel="stylesheet" href="/static/css/magnific-popup.css">
+	<link rel="stylesheet" href="/static/css/main.css">
+	<link rel="stylesheet" href="/static/css/footer.css">
+
+	<link rel="stylesheet" href="/static/css/sliders.css">
+	<link rel="stylesheet" href="/static/main_g.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<script src="https://kit.fontawesome.com/5d7cfd9d48.js" crossorigin="anonymous"></script>
+	<style>
+
+.container-g {
+  max-width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  background-color: white;
+  height: auto;
+ border-radius: 0.5rem;
+ overflow: hidden;
+}
+.row-1{
+	margin: auto;
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+.row-1 img{
+width: 400px;
+align-content: space-between;
+margin-right: 1.5rem;
+margin-left: 1.5rem;
+margin-top: 1.5rem;
+ cursor: pointer;
+ border-radius: 1rem;
+}
+
+/* .row-1:hover img{
+    transform: scale(1.2);
+} */
+
+.images:hover img{
+    transform: scale(1.2);
+	background-color: white;
+	opacity: 0.1;
+}
+
+.row-2{
+	/* margin: 30px auto; */
+	/* align-content: space-between; */
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+.row-2 img{
+width: 350px;
+align-content: space-between;
+margin-right: 3rem;
+margin-top: 1rem;
+cursor: pointer;
+border-radius: 0.7rem;
+}
+.images img {
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+	 }
+
+.images .content{
+
+text-align: center;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+position:relative;
+z-index:3;
+color:#000000;
+opacity:0;
+transform:translateY(30px);
+}
+.images:hover .content{
+	opacity:1 ;
+	transform:translateY(-150px);
+}
+
+
+
+
+
+
+
+/* width: 100%;
+top:0;
+left:0;
+position: absolute;
+background: rgb(0,0,0,0.6);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+opacity: 0;
+transition: 0.6s; */
+
+.images .content:hover{
+	opacity: 1;
+}
+
+
+
+	</style>
+</head>
+
+<body>
+
+	<!-- Start Header Area -->
+	<header class="header_area sticky-header">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light main_box">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html"><img src="/static/img/guncenter.png" alt="" style="size: 10%;width: 150px;"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav ml-auto">
+							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item "><a class="nav-link" href="shop.html">Shop</a></li>
+							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							<li class="nav-item" ><a class="nav-link" href="cart.html">Cart<i class="fa-solid fa-cart-shopping"></i></a></li>
+						</ul>
+						
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="search_input" id="search_input_box">
+			<div class="container">
+				<form class="d-flex justify-content-between">
+					<input type="text" class="form-control" id="search_input" placeholder="Search Here">
+					<button type="submit" class="btn"></button>
+					<span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
+				</form>
+			</div>
+		</div>
+	</header>
+	<!-- End Header Area -->
+
+	  <div class="padding"></div>
+          <section class="container-b">
+			<div class="slider-wrapper">
+				<div class="slider">
+					<img id="slide-1" src="/static/img/guns/m16A4_m.jpg" alt="404"/>
+	
+					<img id="slide-2" src="/static/img/guns/air_pistol_m.jpg" alt="404"/>
+
+					<img id="slide-3" src="/static/img/guns/NX200-Athena-Black.jpg" alt="404"/>
+				</div>
+				<div class="slider-nav">
+					<a href="#slide-1"></a>
+					<a href="#slide-2"></a>
+					<a href="#slide-3"></a>
+				</div>
+			 </div>
+			</div>
+		  </section>
+		
+
+
+
+	<section class="features-area section_gap">
+		<div class="container">
+			<div class="row features-inner">
+				<!-- single features -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon">
+							<img src="/static/img/features/f-icon1.png" alt="">
+						</div>
+						<h6>Free Delivery</h6>
+						<p>Free Shipping on all order</p>
+					</div>
+				</div>
+				<!-- single features -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon">
+							<img src="/static/img/features/f-icon2.png" alt="">
+						</div>
+						<h6>Return Policy</h6>
+						<p>Free Shipping on all order</p>
+					</div>
+				</div>
+				<!-- single features -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon">
+							<img src="/static/img/features/f-icon3.png" alt="">
+						</div>
+						<h6>24/7 Support</h6>
+						<p>Free Shipping on all order</p>
+					</div>
+				</div>
+				<!-- single features -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon">
+							<img src="/static/img/features/f-icon4.png" alt="">
+						</div>
+						<h6>Secure Payment</h6>
+						<p>Free Shipping on all order</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div class="container-g">
+        <div class="row-1">
+			<div class="images">
+			<img src="/static/img/guns/air_gun.jpg" alt="">
+			    <div class="content">
+				  <h1 style="font-size: 40px;">AIR GUNS</h1>
+			    </div>
+			
+			</div>
+
+			<div class="images">
+				<img src="/static/img/guns/BAGS_MAIN.jpg" alt="">
+				<div class="content">
+					<h1 style="font-size: 40px;">ACCESORIES</h1>
+				</div>
+		    </div>
+		
+	    </div>
+
+
+		<div class="row-2">
+
+			<div class="images">
+			  <img src="/static/img/guns/PELLETS_HOME.jpg" alt="">
+			    <div class="content">
+				  <h1 style="font-size: 40px;">PELLETS</h1>
+			    </div>
+			</div>
+
+			<div class="images"><img src="/static/img/guns/SPARES_MAIN.jpg" alt="">
+				<div class="content">
+					<h1 style="font-size: 40px;">SPARES</h1>
+				</div>
+			</div>
+
+			<div class="images"><img src="/static/img/guns/A_PISTOLS_HOME.jpg" alt="">
+				<div class="content">
+					<h1 style="font-size: 40px;">AIR PISTOLS</h1>
+				</div>
+		    </div>
+        </div>
+	</div>	
+</div>	
+
+
+
+
+
+
+
+
+
+
+
+<!-- 		
+			<div class="row-2">
+				<div class="images">
+				<div class="r2"><img src="/static/img/guns/pellets.jpg" alt=""style="width: 396px; height: 223px;"></div>
+				<div class="r2"><img src="/static/img/guns/scopes_ed.jpg" alt="" style="width: 396px; height: 223px;"></div>
+				<div class="r2"><img src="/static/img/guns/spares.jpg" alt=""style="width: 396px; height: 223px;"></div>  
+          </div> -->
+
+	<section class="features-area section_gap">
+		<div class="container-br">
+			<div class="row features-inner">
+				<!-- single features -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon">
+							<img src="/static/img/features/p_logo.jpg" alt="" style="width: 50%;">
+						</div>
+						
+						<p>precision sports</p>
+					</div>
+				</div>
+
+
+
+				<!-- single features -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon">
+							<img src="/static/img/features/d_edit.jpg" alt="" width="50%">
+						</div>
+						
+						<p>Diana Guns</p>
+					</div>
+				</div>
+				<!-- single features -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon">
+							<img src="/static/img/features/cam_logo.png" alt="" style="width: 50%;">
+						</div>
+						
+						<p>Camstor sports</p>
+					</div>
+				</div>
+				<!-- single features -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon">
+							<img src="/static/img/features/jsb_logo.jpg" alt=""style="width: 50%">
+						</div>
+						
+						<p>JSB</p>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+<!-- 
+		<div class="container-br-2">
+			<div class="row features-inner">
+				
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon">
+							<img src="/static/img/features/p_logo.jpg" alt="" style="width: 50%;">
+						</div>
+						
+						<p>precision sports</p>
+					</div>
+				</div>
+
+
+
+				
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon">
+							<img src="/static/img/features/d_edit.jpg" alt="" width="50%">
+						</div>
+						
+						<p>Diana Guns</p>
+					</div>
+				</div>
+
+			
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon">
+							<img src="/static/img/features/cam_logo.png" alt="" style="width: 50%;">
+						</div>
+						
+						<p>Camstor sports</p>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon">
+							<img src="/static/img/features/jsb_logo.jpg" alt=""style="width: 50%">
+						</div>
+						
+						<p>JSB</p>
+					</div>
+				</div>
+
+
+			</div>
+		</div> -->
+	</section>
+
+
+	
+	<!-- <section class="owl-carousel active-product-area section_gap">
+	</section> -->
+
+	<!-- start footer Area -->
+    <!-- <section class="features-area section_gap"></section> -->
+	  <footer class="footer-area section_gap">
+		<div class="footer-clean">
+			<footer>
+				<footer class="footer">
+					<div class="container-f">
+					 <div class="row-f">
+					   <div class="footer-col">
+						 <h4>company</h4>
+						 <ul>
+						   <li><a href="#">about us</a></li>
+						   <li><a href="#">our services</a></li>
+						   <li><a href="#">privacy policy</a></li>
+						   <li><a href="#">affiliate program</a></li>
+						 </ul>
+					   </div>
+					   <div class="footer-col">
+						 <h4>get help</h4>
+						 <ul>
+						   <li><a href="#">FAQ</a></li>
+						   <li><a href="#">shipping</a></li>
+						   <li><a href="#">returns</a></li>
+						   <li><a href="#">order status</a></li>
+						   <li><a href="#">payment options</a></li>
+						 </ul>
+					   </div>
+					  
+					   <div class="footer-col">
+						 <h4>follow us</h4>
+						 <div class="social-links">
+						   <a href="#"><i class="fab fa-facebook-f"></i></a>
+						   <a href="#"><i class="fab fa-twitter"></i></a>
+						   <a href="#"><i class="fab fa-instagram"></i></a>
+						   <a href="#"><i class="fab fa-linkedin-in"></i></a>
+						 </div>
+					   </div>
+					 </div>
+					</div>
+				 </footer>
+			</footer>
+		</div>
+	  </footer>
+	<!-- End footer Area -->
+
+	<script src="/templates/js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+	 crossorigin="anonymous"></script>
+	<script src="/templates/js/vendor/bootstrap.min.js"></script>
+	<script src="/templates/js/jquery.ajaxchimp.min.js"></script>
+	<script src="/templates/js/jquery.nice-select.min.js"></script>
+	<script src="/templates/js/jquery.sticky.js"></script>
+	<script src="/templates/js/nouislider.min.js"></script>
+	<script src="/templates/js/countdown.js"></script>
+	<script src="/templates/js/jquery.magnific-popup.min.js"></script>
+	<script src="/templates/js/owl.carousel.min.js"></script>
+	<!--gmaps Js-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+	<script src="/templates/js/gmaps.min.js"></script>
+	<script src="/templates/js/main.js"></script>
+</body>
+
+</html>
